@@ -113,7 +113,7 @@ button {
 
 @media (max-width: 400px) {
     .diceContainer{
-        gap: 15px;
+        gap: 20px 10px;
     }
 
     .diceContainer button {
@@ -121,5 +121,6 @@ button {
     width: 40px;
     font-size: 1.5rem;
     font-weight: bold;
+    text-align: center;
 }
 }
