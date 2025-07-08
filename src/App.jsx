@@ -77,7 +77,7 @@ function App() {
       height={height}
     /> : null}
     <div aria-live="polite" className="sr-only">
-                {gameWon && <p>Congratulations! You won! Press "New Game" to start again.</p>}
+                {catala? gameWon && <p>Enhorabona! Has guanyat! Prem 'Nova Partida' per començar de nou.</p> : gameWon && <p>Congratulations! You won! Press "New Game" to start again.</p> }
             </div>
       <main>
         <h1 className="title">Tenzies</h1>
