@@ -82,12 +82,12 @@ function App() {
       <main>
         <h1 className="title">Tenzies</h1>
         <p className="instructions">{catala?'Tira fins que tots els daus siguin iguals. Fes clic a cada dau per congelar-lo al seu valor actual entre les tirades.':'Roll until all dice are the same. Click each die to freeze it at its current value between rolls.'}</p>
-        <button className="langChange" onClick={changeLang}>{catala?'Play in English':'Juga en Català'}</button>
         <div className="diceContainer">
           {genDic}       
         </div>
         <span>{catala?'Comptador de tirades':'Roll Counter'} : {rollCount}</span>
         <button ref={buttonFocus} className="rollDice" onClick={reRoll}>{catala?gameWon? 'Nova Partida':'Tira' :gameWon? 'NEW GAME' : 'ROLL'}</button>
+        <button className="langChange" onClick={changeLang}>{catala?'Play in English':'Juga en Català'}</button>
       </main>
     </>
   )
