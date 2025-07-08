@@ -121,10 +121,7 @@ button {
     }
 
     .diceContainer button {
-    height: 45px;
-    width: 45px;
     font-size: 1.5rem;
-    font-weight: bold;
     text-align: center;
 }
 }
